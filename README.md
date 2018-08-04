@@ -1,6 +1,6 @@
 # Planet API
 
-Api Rest para realizar processamento de dados de Planetas citados ou não no filme Star Wars.
+Api Rest para realizar processamento de dados de Planetas citados(disponivel em https://swapi.co/) ou não no filme Star Wars.
 
 # Tecnologias Utilizadas:
 
