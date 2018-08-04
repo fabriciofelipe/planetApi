@@ -1,6 +1,6 @@
 # Planet API
 
-Api rest para realizar processamento de dados de Planetas citados ou não no filme Star Wars.
+Api Rest para realizar processamento de dados de Planetas citados ou não no filme Star Wars.
 
 # Tecnologias Utilizadas:
 
@@ -15,7 +15,7 @@ spring-cloud-starter-openfeign 2.0.1.RELEASE \
 lombok 1.16.22 \
 spring-boot-starter-test 2.0.3.RELEASE \
 
-# Exemplos de Request's para chamar os serviços Rest's.
+# Http Request methods.
 
 curl -X POST \
   http://localhost:8080/planet \
