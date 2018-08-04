@@ -1,0 +1,8 @@
+server:
+    port: 8080
+# random port
+#   port: 0
+
+spring.data.mongodb.uri: mongodb://localhost:27017/planets
+
+integration.swapi.url: https://swapi.co/api
