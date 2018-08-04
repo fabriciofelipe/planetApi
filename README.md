@@ -29,19 +29,19 @@ curl -X POST \
 }'
 
 curl -X DELETE \
-  http://localhost:8080/planet/Earth \
+  http://localhost:8080/planet/{name} \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: a21f21ee-03de-541e-2549-ed018072cf17'
 
 curl -X GET \
-  http://localhost:8080/planet/id/5b662076cc70e64ef4d0aa3a \
+  http://localhost:8080/planet/id/{id} \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: ba66ac4d-6443-f336-2066-116b685d494c'
 
 curl -X GET \
-  http://localhost:8080/planet/name/Kamino \
+  http://localhost:8080/planet/name/{name} \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: e66893ee-b17f-8180-b0ef-8157ed269884'
