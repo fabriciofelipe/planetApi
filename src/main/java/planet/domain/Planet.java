@@ -1,4 +1,4 @@
-package planet.data.planetapi.domain;
+package planet.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

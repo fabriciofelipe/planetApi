@@ -1,4 +1,4 @@
-package planet.data.planetapi.domain;
+package planet.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,9 +11,6 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 @Data
-public class Results {
-    private String name;
-    private String climate;
-    private String terrain;
-    private List films;
+public class Swapi {
+    private List<Results> results;
 }

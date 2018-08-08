@@ -1,7 +1,7 @@
-package planet.data.planetapi.Infrastructure.repository;
+package planet.Infrastructure.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import planet.data.planetapi.domain.Planet;
+import planet.domain.Planet;
 
 import java.util.Optional;
 

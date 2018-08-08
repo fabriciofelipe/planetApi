@@ -1,12 +1,12 @@
-package planet.data.planetapi.application.service;
+package planet.application.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import planet.data.planetapi.Infrastructure.repository.PlanetRepository;
-import planet.data.planetapi.application.client.SwapiClient;
-import planet.data.planetapi.domain.Planet;
-import planet.data.planetapi.domain.Results;
-import planet.data.planetapi.domain.Swapi;
+import planet.Infrastructure.repository.PlanetRepository;
+import planet.application.client.SwapiClient;
+import planet.domain.Planet;
+import planet.domain.Results;
+import planet.domain.Swapi;
 
 import java.util.List;
 import java.util.Optional;

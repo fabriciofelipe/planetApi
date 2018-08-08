@@ -1,4 +1,4 @@
-package planet.data.planetapi.configuration;
+package planet.configuration;
 
 import feign.Feign;
 import org.springframework.context.annotation.Configuration;
